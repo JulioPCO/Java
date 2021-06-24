@@ -1,0 +1,175 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch NonRepeated",
+            "request": "launch",
+            "mainClass": "DataStructure.Exercises.MethodsExercises.NonRepeated",
+            "projectName": "JavaProjectTest_d18f34d1"
+        },
+        {
+            "type": "java",
+            "name": "Launch AsynchronousAPI",
+            "request": "launch",
+            "mainClass": "ExecutorsFramework.AsynchronousAPI",
+            "projectName": "JavaProjectTest_d18f34d1"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainCollections",
+            "request": "launch",
+            "mainClass": "ExampleAdvanced.MainCollections",
+            "projectName": "JavaProjectTest_d18f34d1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "DataStructure.Exercises.Main",
+            "projectName": "JavaProjectTest_d18f34d1"
+        },
+        {
+            "type": "java",
+            "name": "Launch BankProjectMain",
+            "request": "launch",
+            "mainClass": "Projects.BankProject.BankProjectMain",
+            "projectName": "JavaProjectTest_d18f34d1"
+        },
+        {
+            "type": "java",
+            "name": "Launch BestPriceFinder",
+            "request": "launch",
+            "mainClass": "Projects.BestPriceFinder",
+            "projectName": "JavaProjectTest_45b7412a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MortgageOOP",
+            "request": "launch",
+            "mainClass": "Projects.MortgageOOP",
+            "projectName": "JavaProjectTest_45b7412a"
+        },
+        {
+            "type": "java",
+            "name": "Launch AsynchronousAPI",
+            "request": "launch",
+            "mainClass": "ExecutorsFramework.AsynchronousAPI",
+            "projectName": "JavaProjectTest_45b7412a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Threads",
+            "request": "launch",
+            "mainClass": "ThreadsConcurrency.Threads",
+            "projectName": "JavaProjectTest_45b7412a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainLambda",
+            "request": "launch",
+            "mainClass": "ExampleAdvanced.MainLambda",
+            "projectName": "JavaProjectTest_45b7412a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainCollections",
+            "request": "launch",
+            "mainClass": "ExampleAdvanced.MainCollections",
+            "projectName": "JavaProjectTest_45b7412a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainGenerics",
+            "request": "launch",
+            "mainClass": "ExampleAdvanced.MainGenerics",
+            "projectName": "JavaProjectTest_45b7412a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "ExampleAdvanced.Main",
+            "projectName": "JavaProjectTest_45b7412a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "ExercisesJava.MyTube.src.com.mytube.Main",
+            "projectName": "JavaProjectTest_45b7412a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Example5",
+            "request": "launch",
+            "mainClass": "Java.Test.Example5",
+            "projectName": "JavaProjectTest_45b7412a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Example4",
+            "request": "launch",
+            "mainClass": "Java.Test.Example4",
+            "projectName": "JavaProjectTest_45b7412a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "JavaProjectTest_45b7412a"
+        },
+        {
+            "type": "java",
+            "name": "Launch FizzBuzz",
+            "request": "launch",
+            "mainClass": "ExercisesJava.FizzBuzz",
+            "projectName": "JavaProjectTest_45b7412a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MortgageOOP",
+            "request": "launch",
+            "mainClass": "ExercisesJava.MortgageOOP",
+            "projectName": "JavaProjectTest_45b7412a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MortgageProcedural",
+            "request": "launch",
+            "mainClass": "ExercisesJava.MortgageProcedural",
+            "projectName": "JavaProjectTest_45b7412a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Example1",
+            "request": "launch",
+            "mainClass": "Java.Test.Example1",
+            "projectName": "JavaProjectTest_45b7412a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Example2",
+            "request": "launch",
+            "mainClass": "Java.Test.Example2",
+            "projectName": "JavaProjectTest_45b7412a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Example3",
+            "request": "launch",
+            "mainClass": "Java.Test.Example3",
+            "projectName": "JavaProjectTest_45b7412a"
+        }
+    ]
+}
