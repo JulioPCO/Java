@@ -1,19 +1,12 @@
-package DataStructure.Exercises;
+package DataStructure.LinearStructures;
 
 //import java.util.ArrayDeque;
 import java.util.Arrays;
 //import java.util.Queue;
 
-import DataStructure.Exercises.MethodsExercises.BalanceCheck;
-import DataStructure.Exercises.MethodsExercises.MinStack;
-//import DataStructure.Exercises.MethodsExercises.NonRepeated;
-//import DataStructure.Exercises.MethodsExercises.NonRepeated;
-//import DataStructure.Exercises.MethodsExercises.PriorityQueue;
-//import DataStructure.Exercises.MethodsExercises.QueueLinkedList;
-//import DataStructure.Exercises.MethodsExercises.ReverseQueue;
-//import DataStructure.Exercises.MethodsExercises.StackwithTwoQueue;
-import DataStructure.Exercises.MethodsExercises.StringReverser;
-//import DataStructure.Exercises.MethodsExercises.TwoStacks;
+import DataStructure.LinearStructures.MethodsExercises.BalanceCheck;
+import DataStructure.LinearStructures.MethodsExercises.MinStack;
+import DataStructure.LinearStructures.MethodsExercises.StringReverser;
 
 
 public class Main {

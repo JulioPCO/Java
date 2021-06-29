@@ -1,4 +1,4 @@
-package DataStructure.Exercises.MethodsExercises;
+package DataStructure.LinearStructures.MethodsExercises;
 
 import java.util.ArrayList;
 import java.util.Arrays;

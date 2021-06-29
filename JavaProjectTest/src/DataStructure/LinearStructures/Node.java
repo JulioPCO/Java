@@ -1,4 +1,4 @@
-package DataStructure.Exercises;
+package DataStructure.LinearStructures;
 
 public class Node {
     private int value;
