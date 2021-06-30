@@ -2,17 +2,21 @@ package DataStructure.NonLinearStructures;
 
 public class Main {
     public static void main(String[] args){
-        int[] array = {10, 5, 15 , 6, 1, 8, 12, 18, 17};
-        BinaryTree binaryTree = new BinaryTree(array);
+        //int[] array = {10, 5, 15 , 6, 1, 8, 12, 18, 17};
+        //BinaryTree binaryTree = new BinaryTree(array);
         //BinaryTree binaryTree2 = new BinaryTree(array);
 
-        binaryTree.insert(2);
-        binaryTree.insert(3);
-        binaryTree.insert(0);
-        binaryTree.insert(7);
-        binaryTree.getTree();
-        System.out.println(binaryTree.find(10));
-        System.out.println(binaryTree.getAncestor(11).toString());
+        AVLTree avlTree = new AVLTree();
+
+        avlTree.insert(10);
+        avlTree.insert(5);
+        avlTree.insert(4);
+        avlTree.insert(13);
+        avlTree.insert(14);
+        avlTree.insert(12);
+        avlTree.insert(6);
+
+        System.out.println(avlTree.isPerfect());
     }
     
     //recursion
