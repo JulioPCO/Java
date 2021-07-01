@@ -4,9 +4,9 @@ package DataStructure.LinearStructures;
 import java.util.Arrays;
 //import java.util.Queue;
 
-import DataStructure.LinearStructures.MethodsExercises.BalanceCheck;
-import DataStructure.LinearStructures.MethodsExercises.MinStack;
-import DataStructure.LinearStructures.MethodsExercises.StringReverser;
+import DataStructure.LinearStructures.FunctionWithStructures.BalanceCheck;
+import DataStructure.LinearStructures.FunctionWithStructures.MinStack;
+import DataStructure.LinearStructures.FunctionWithStructures.StringReverser;
 
 
 public class Main {

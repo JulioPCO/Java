@@ -1,4 +1,4 @@
-package DataStructure.LinearStructures.MethodsExercises;
+package DataStructure.LinearStructures.FunctionWithStructures;
 
 import java.util.ArrayDeque;
 import java.util.Queue;

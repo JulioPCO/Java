@@ -1,22 +1,29 @@
 package DataStructure.NonLinearStructures;
 
+import DataStructure.NonLinearStructures.FunctionWithStructures.Heapify;
+//import DataStructure.NonLinearStructures.FunctionWithStructures.SortHeap;
+
 public class Main {
     public static void main(String[] args){
-        //int[] array = {10, 5, 15 , 6, 1, 8, 12, 18, 17};
+        int[] array = {10, 5, 15 , 6, 1, 8, 12, 18, 17};
         //BinaryTree binaryTree = new BinaryTree(array);
         //BinaryTree binaryTree2 = new BinaryTree(array);
+        //AVLTree avlTree = new AVLTree();
+        Heap heap = new Heap(20);
+        heap.insert(5);
+        heap.insert(10);
+        heap.insert(12);
+        heap.insert(0);
+        heap.insert(8);
+        heap.insert(16);
+        heap.insert(-1);
+        System.out.println(heap.remove(16));
+        System.out.println(heap.toString());
 
-        AVLTree avlTree = new AVLTree();
-
-        avlTree.insert(10);
-        avlTree.insert(5);
-        avlTree.insert(4);
-        avlTree.insert(13);
-        avlTree.insert(14);
-        avlTree.insert(12);
-        avlTree.insert(6);
-
-        System.out.println(avlTree.isPerfect());
+        Heapify heapify = new Heapify();
+        var heapified = heapify.heapify(array);
+        System.out.println(heapified);
+        
     }
     
     //recursion
