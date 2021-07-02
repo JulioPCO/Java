@@ -1,7 +1,8 @@
 package DataStructure.NonLinearStructures;
 
-import DataStructure.NonLinearStructures.FunctionWithStructures.Heapify;
-//import DataStructure.NonLinearStructures.FunctionWithStructures.SortHeap;
+import DataStructure.NonLinearStructures.FunctionWithStructures.MinHeapNodes;
+//import DataStructure.NonLinearStructures.FunctionWithStructures.Heapify;
+import DataStructure.NonLinearStructures.FunctionWithStructures.SortHeap;
 
 public class Main {
     public static void main(String[] args){
@@ -9,20 +10,21 @@ public class Main {
         //BinaryTree binaryTree = new BinaryTree(array);
         //BinaryTree binaryTree2 = new BinaryTree(array);
         //AVLTree avlTree = new AVLTree();
-        Heap heap = new Heap(20);
-        heap.insert(5);
-        heap.insert(10);
-        heap.insert(12);
-        heap.insert(0);
-        heap.insert(8);
-        heap.insert(16);
-        heap.insert(-1);
-        System.out.println(heap.remove(16));
-        System.out.println(heap.toString());
+        MinHeapNodes heap = new MinHeapNodes();
+        heap.insert(15,"a");
+        heap.insert(12,"b");
+        heap.insert(13,"c");
+        heap.insert(6,"d");
+        heap.insert(7,"e");
+        heap.insert(8,"f");
+        heap.insert(9,"g");
+        heap.remove();
+        
 
-        Heapify heapify = new Heapify();
-        var heapified = heapify.heapify(array);
-        System.out.println(heapified);
+        
+        //Heapify heapify = new Heapify();
+        var isMaxHeap =new  SortHeap();
+        System.out.println(isMaxHeap.isMaxHeap(array));
         
     }
     
