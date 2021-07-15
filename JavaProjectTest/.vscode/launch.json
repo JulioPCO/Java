@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
+            "mainClass": "DataStructure.Algorithms.Main",
+            "projectName": "JavaProjectTest_d18f34d1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
             "mainClass": "DataStructure.NonLinearStructures.Main",
             "projectName": "JavaProjectTest_d18f34d1"
         },
