@@ -10,6 +10,7 @@ import DataStructure.Algorithms.Sorting.CountingSort;
 import DataStructure.Algorithms.Sorting.InsertionSort;
 import DataStructure.Algorithms.Sorting.MergeSort;
 import DataStructure.Algorithms.Sorting.SelectionSorting;
+import DataStructure.Algorithms.StringManipulation.StringUtils;
 import DataStructure.Algorithms.Sorting.QuickSort;
 import DataStructure.Algorithms.Sorting.BucketSort;
 
@@ -36,6 +37,17 @@ public class Main {
         ExponentialSearch search5 = new ExponentialSearch();
 
         search5.exponentialSearch(arr,6);
+
+    
+        StringUtils.vowels("");
+        StringUtils.reverseString2("Hello World");
+        StringUtils.reverseWords2("Hello World from the other side");
+        StringUtils.rotationSolution("ABCD", "DABC");
+        StringUtils.removeDuplicates("Heelllooooo!!!");
+        StringUtils.mostRepeated("HIIIIII!!");
+        StringUtils.capitilizeFirstLetter("hello this is my name");
+        StringUtils.anagrams("aaab", "baaa");
+        StringUtils.palindrome2("");
     }
 
 }
