@@ -1,5 +1,10 @@
 package DataStructure.Algorithms;
 
+import DataStructure.Algorithms.Searching.BinarySearching;
+import DataStructure.Algorithms.Searching.ExponentialSearch;
+import DataStructure.Algorithms.Searching.JumpSearch;
+import DataStructure.Algorithms.Searching.LinearSearching;
+import DataStructure.Algorithms.Searching.TernarySearch;
 import DataStructure.Algorithms.Sorting.BubbleSort;
 import DataStructure.Algorithms.Sorting.CountingSort;
 import DataStructure.Algorithms.Sorting.InsertionSort;
@@ -23,6 +28,14 @@ public class Main {
         arr = sort6.bucketSort(arr);
 
         System.out.println(Arrays.toString(arr));
+
+        LinearSearching search1 =new LinearSearching();
+        BinarySearching search2 = new BinarySearching();
+        TernarySearch search3 = new TernarySearch();
+        JumpSearch search4 = new JumpSearch();
+        ExponentialSearch search5 = new ExponentialSearch();
+
+        search5.exponentialSearch(arr,6);
     }
 
 }
